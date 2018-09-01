@@ -54,7 +54,7 @@ def main():
         tweet="Afternoon session. "
     elif args.slot!=None and "even" in args.slot:
         tweet="Evening session. "
-    elif args.go!=None:
+    elif args.go!=None or "go" in args.slot:
         tweet="Surprise call. "
 
     if tweet=="NYS":
